@@ -17,3 +17,4 @@
 - treść: p.product-review-body
 - wady: div.cons-cell > ul
 - zalety: div.pros-cell > ul
+## Etap 2 - pobranie składowych wszystkich opinii z pojedynczej strony
