@@ -17,4 +17,37 @@
 - treść: p.product-review-body
 - wady: div.cons-cell > ul
 - zalety: div.pros-cell > ul
-## Etap 2 - pobranie składowych wszystkich opinii z pojedynczej strony
+## Etap 2 - pobranie składowych wszystkich opinii z poedynczej strony
+- zapisanie składowych opinii w złożonej strukturze danych
+## Etap 3 - pobranie wszystkich opinii o pojedynczym produkcie
+- przechodzenie po stronach z opiniami
+- eksport opinii do pliku (.csv. lub .xlsx lub .json)
+## Etap 4
+- transformacja danych
+- refaktoryzacja kodu
+## Etap 5
+- zapis danych do obiektu dataframe (ramka danych)
+- wykonamie podstawowych obliczeń na danych w ramce danych
+- wykonanie prostych wykresów na podstawie danych w ramce danych
+## Etap 6 - przygotowanie interfajsu webowego aplikcaji (Flask)
+- struktura aplikacji
+>    /CeneoScraper/  
+>>        /run.py  
+>>        /config.py  
+>>        /app/  
+>>>            /__init__.py
+>>>            /views.py  
+>>>            /models.py 
+>>>            /scraper.py
+>>>            /analyzer.py 
+>>>            /opinions_json
+>>>            /static/  
+>>>>                /figures_png
+>>>>                /main.css
+>>>            /templates/  
+>>>>                /layout.html  
+>>>        /requirements.txt  
+>>>        /README.md
+>>>        /.venv/
+- widoki (Jinja)
+- routingi
